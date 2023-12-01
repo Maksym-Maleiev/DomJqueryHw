@@ -7,3 +7,4 @@ for (var i = 0; i < nameFriends.length; i++){
 }
 
 $("h1").text("Meet my friends:");
+$("p").hide(2000).fadeIn(2000);
