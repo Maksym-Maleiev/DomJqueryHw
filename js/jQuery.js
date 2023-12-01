@@ -3,9 +3,12 @@
 var nameFriends = ["Harry", "Ron", "Hermione"];
 
 for (var i = 0; i < nameFriends.length; i++){
-  $("body").append("<p>My friend name is " + nameFriends[i] + "</p>");
+  $("body").append("<p>" + nameFriends[i] + "</p>");
+
+  function hiddenNames(name) {
+    
+  }
 }
 
 $("h1").text("Meet my friends:");
-$("p").hide();
-  $("p").fadeIn(1000);
+
