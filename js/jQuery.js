@@ -4,8 +4,7 @@ var nameFriends = ["Harry", "Ron", "Hermione"];
 
 for (var i = 0; i < nameFriends.length; i++){
   $("body").append("<p>My friend name is " + nameFriends[i] + "</p>");
-  $("p").hide(0);
-  $("p").fadeIn(1000);
+  $("p").fadeIn(1000).hide(1000);
 }
 
 $("h1").text("Meet my friends:");
