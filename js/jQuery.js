@@ -10,5 +10,5 @@ for (var i = 0; i < nameFriends.length; i++){
   }
 }
 
-$("h1").text("Meet my friends:");
+$("h1").text("My friends:");
 
