@@ -7,5 +7,7 @@ for (var i = 0; i < nameFriends.length; i++){
 }
 
 $("h1").text("Meet my friends:");
-$("p").hide(2000);
-$("p").fadeIn(2000);
+
+$(nameFriends[0]).hide(2000).fadeIn(2000);
+$(nameFriends[1]).hide(2000).fadeIn(2000);
+$(nameFriends[2]).hide(2000).fadeIn(2000);
