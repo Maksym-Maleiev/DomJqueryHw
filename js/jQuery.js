@@ -2,7 +2,7 @@
 
 var nameFriends = ["Harry", "Ron", "Hermione"];
 
-for (var i = 0; i < 3; i++){
+for (var i = 0; i < nameFriends.length; i++){
   $("body").append("<p>My frind name is</p> " + nameFriends[0]);
   $("body").append("<p>My frind name is</p> " + nameFriends[1]);
   $("body").append("<p>My frind name is</p> " + nameFriends[2]);
