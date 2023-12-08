@@ -18,3 +18,5 @@ for (var j = 0; j < 1; j++){
   $("h1").fadeOut(4000).fadeIn(4000);
   $("h1").fadeOut(5000).fadeIn(5000);
 }
+
+// 3: pause the animation
