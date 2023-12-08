@@ -24,4 +24,4 @@ $("body").append("<h2>My hobbies:</h2>").delay(1000).fadeOut(1500).fadeIn(1500);
 
 // 4: use FADETO
 $("body").append("<h3>My fauvorite music:</h3>");
-$("h3").fadeTo(2000, 0.3);
+$("h3").fadeTo(2000, 0.5);
