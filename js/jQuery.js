@@ -7,8 +7,8 @@ for (var i = 0; i < nameFriends.length; i++){
 }
 
 $("h1").text("My friends:");
-$("p").hide();
-  $("p").fadeIn(2000);
+$("p").hide().fadeIn(2000);;
+// $("p").fadeIn(2000);
 $("p").append(" smells");
 
 // 2: create a flashing header
