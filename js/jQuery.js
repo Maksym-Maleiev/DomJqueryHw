@@ -20,3 +20,4 @@ for (var j = 0; j < 1; j++){
 }
 
 // 3: pause the animation
+$("body").append("<h2>My hobbies:</h2>");
