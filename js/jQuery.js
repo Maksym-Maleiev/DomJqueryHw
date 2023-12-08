@@ -13,4 +13,8 @@ $("p").append(" smells");
 // 2: create a flashing header
 for (var j = 0; j < 5; j++){
   $("h1").fadeOut(1000).fadeIn(1000);
+  $("h1").fadeOut(1000).fadeIn(1000);
+  $("h1").fadeOut(1000).fadeIn(1000);
+  $("h1").fadeOut(1000).fadeIn(1000);
+  $("h1").fadeOut(1000).fadeIn(1000);
 }
