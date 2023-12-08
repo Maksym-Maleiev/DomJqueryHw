@@ -20,4 +20,4 @@ for (var j = 0; j < 1; j++){
 }
 
 // 3: pause the animation
-$("body").append("<h2>My hobbies:</h2>");
+$("body").append("<h2>My hobbies:</h2>").delay(1000).fadeOut(1500).fadeIn(1500);
